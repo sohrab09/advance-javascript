@@ -13,3 +13,11 @@
 4- null
 5- NaN
 6- false
+
+let name = 12;
+if (name || name == 0) {
+    console.log("Condition True");
+}
+else{
+    console.log("Condition False");
+}
